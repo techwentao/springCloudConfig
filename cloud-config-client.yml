@@ -22,7 +22,7 @@ server:
 spring:
   profiles: beta
   application:
-    name: cloudconfig-test-client-fuck of
+    name: cloudconfig-test-client-sorry!
 
 eureka:
   client:
