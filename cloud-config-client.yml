@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:edwin@localhost:7001/eureka
+      defaultZone: http://admin:edwin@eureka1:7001/eureka
 ---
 server:
   port: 8102
@@ -22,7 +22,7 @@ server:
 spring:
   profiles: beta
   application:
-    name: cloudconfig-test-client-sorry!
+    name: cloudconfig-test-client
 
 eureka:
   client:
