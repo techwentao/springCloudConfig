@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: cloud-config-test-client_devvvvvvKKKKKK
+    name: cloud-config-test-client_dev
 
 eureka:
   client:
@@ -18,7 +18,7 @@ eureka:
       register-with-eureka: false
 
 info:
-  app.name: cloud-config-client_devvvvvvKKKKKK
+  app.name: cloud-config-client_dev
   company.name: edwin
 ---
 server:
