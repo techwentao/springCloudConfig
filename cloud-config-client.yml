@@ -14,7 +14,12 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:edwin@eureka1:7001/eureka
+      defaultZone: http://admin:edwin@localhost:7301/eureka
+      register-with-eureka: false
+
+info:
+  app.name: cloud-config-client-dev
+  company.name: edwin
 ---
 server:
   port: 8102
@@ -27,4 +32,9 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:edwin@eureka2:7002/eureka
+      defaultZone: http://admin:edwin@localhost:7301/eureka
+      register-with-eureka: false
+  
+info:
+  app.name: cloud-config-client- beta
+  company.name: edwin
