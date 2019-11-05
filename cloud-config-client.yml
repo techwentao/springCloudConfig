@@ -36,5 +36,5 @@ eureka:
       register-with-eureka: false
   
 info:
-  app.name: cloud-config-client- beta
+  app.name: cloud-config-client-beta
   company.name: edwin
